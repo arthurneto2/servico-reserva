@@ -1,4 +1,4 @@
-package brenner.edu.reservas.core.usecase;
+package brenner.edu.reservas.core.usecase.commands;
 
 import java.time.LocalDateTime;
 import java.util.Objects;

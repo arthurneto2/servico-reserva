@@ -1,4 +1,4 @@
-package brenner.edu.reservas.core.usecase;
+package brenner.edu.reservas.core.usecase.commands;
 
 import java.util.Objects;
 import java.util.UUID;

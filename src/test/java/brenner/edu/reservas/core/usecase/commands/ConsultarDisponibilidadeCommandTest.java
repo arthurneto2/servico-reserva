@@ -1,4 +1,4 @@
-package brenner.edu.reservas.core.usecase;
+package brenner.edu.reservas.core.usecase.commands;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
