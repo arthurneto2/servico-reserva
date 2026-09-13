@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: reservas
+  datasource:
+    url: jdbc:postgresql://localhost:5432/reservas
+    username: reservas
+    password: reservas
+  jpa:
+    hibernate:
+      ddl-auto: validate      # o schema vem do docker/init.sql; a entidade JPA deve bater com ele
+    open-in-view: false       # evita sessão aberta no controller (o mapper de saída faz o trabalho)
+    properties:
+      hibernate:
+        format_sql: true
+  sql:
+    init:
+      mode: never
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+  api-docs:
+    path: /v3/api-docs
+
+logging:
+  level:
+    org.hibernate.SQL: debug
