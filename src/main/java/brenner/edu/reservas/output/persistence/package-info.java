@@ -1,4 +1,4 @@
 /**
- * Entidades JPA (sufixo Entity, anotadas com @Entity), repositórios Spring Data, adapters dos ports de persistência e mappers Entity <-> domínio.
+ * Persistência: repositórios Spring Data no raiz, e as demais responsabilidades separadas — entidades JPA em {@code entities}, conversão Entity <-> domínio em {@code mappers} e as implementações dos ports em {@code adapters}.
  */
 package brenner.edu.reservas.output.persistence;
